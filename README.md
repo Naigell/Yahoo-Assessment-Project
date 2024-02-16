@@ -1,21 +1,5 @@
 Description of Repo Folders/Structure:
-The repository consists of multiple directories, each representing a Terraform module responsible for configuring specific resources on GCP. The main.tf file orchestrates the deployment by calling each module. See structure below:
-.
-├── scheduled_job
-│   └── main.tf
-├── http_endpoint
-│   └── main.tf
-├── optional_rate_limiting
-│   └── main.tf
-├── monitoring
-│   ├── main.tf
-├── disaster_recovery
-│   └── main.tf
-├── storage_bucket
-│   └── main.tf
-├── variables.tf
-└── main.tf
-
+The repository consists of multiple directories, each representing a Terraform module responsible for configuring specific resources on GCP. The main.tf file orchestrates the deployment by calling each module.
 Deployment Instructions and Dependencies:
 1.	Ensure you have Terraform installed on your machine.
 2.	Set up authentication with Google Cloud Platform using service account credentials.
